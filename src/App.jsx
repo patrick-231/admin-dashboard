@@ -6,7 +6,7 @@ import ProductsPage from "./pages/ProductsPage";
 import OverviewPage from "./pages/OverviewPage";
 
 //components
-import { Sidebar } from "./components/Sidebar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
