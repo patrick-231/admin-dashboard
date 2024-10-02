@@ -16,12 +16,12 @@ const salesData = [
   { name: "Jan", sales: 6300 },
   { name: "Feb", sales: 5700 },
   { name: "Mar", sales: 6400 },
-  { name: "Apr", sales: 6800 },
+  { name: "Apr", sales: 6000 },
   { name: "May", sales: 7300 },
-  { name: "Jun", sales: 7900 },
-  { name: "Jul", sales: 4500 },
-  { name: "Aug", sales: 4200 },
-  { name: "Sep", sales: 5600 },
+  { name: "Jun", sales: 7000 },
+  { name: "Jul", sales: 8500 },
+  { name: "Aug", sales: 9200 },
+  { name: "Sep", sales: 9600 },
 ];
 
 const SalesOverviewChart = () => {
