@@ -7,6 +7,8 @@ import OverviewPage from "./pages/OverviewPage";
 
 //components
 import Sidebar from "./components/Sidebar";
+import UsersPage from "./pages/UsersPage";
+import SalesPage from "./pages/SalesPage";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<OverviewPage />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/users" element={<UsersPage />} />
+        <Route path="/sales" element={<SalesPage />} />
       </Routes>
     </div>
   );

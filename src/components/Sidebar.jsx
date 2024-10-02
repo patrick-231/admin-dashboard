@@ -29,7 +29,7 @@ const SIDEBAR_ITEMS = [
     name: "Users",
     icon: Users,
     color: "#ec4899",
-    href: "/customers",
+    href: "/users",
   },
   {
     name: "Sales",
