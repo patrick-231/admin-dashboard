@@ -57,7 +57,7 @@ const SIDEBAR_ITEMS = [
   },
 ];
 const Sidebar = () => {
-  const [isSideBarOpen, setIsSideBarOpen] = useState(true);
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
   return (
     <motion.div
       className={`relative z-10 transition-all duration-300 ease-in-out flex-shrink-0 ${
