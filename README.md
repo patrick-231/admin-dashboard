@@ -1,6 +1,6 @@
-# **Admin Dashboard Application** 📊
+# **Admin Dashboard Application 📊 - Deployed on a Docker Container🐳**
 
-This is a React-based dashboard application that provides various pages including Overview, Products, Users, Sales, Orders, Analytics, and Settings. It utilizes React Router for navigation and is designed with a responsive layout and a gradient background for an enhanced user experience.
+This is a React-based dashboard application that was developed using Docker. It provides various pages including Overview, Products, Users, Sales, Orders, Analytics, and Settings. It utilizes React Router for navigation and is designed with a responsive layout and a gradient background for an enhanced user experience.
 
 ## **User Interface** 📸
 
@@ -27,45 +27,37 @@ This is a React-based dashboard application that provides various pages includin
 - Uses React Router for seamless page transitions 🔄
 - Built with Tailwind CSS for styling 🎨
 
-## **Installation** 🛠️
+## **Docker 🐳**
 
-To run this project locally, follow these steps:
+Make sure you have Docker Desktop running on your machine before proceeding.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/patrick-231/admin-dashboard.git
-   ```
-2. Navigate to the project directory:
+The Admin Dashboard application is designed to be easily deployed using Docker. You can pull the pre-built Docker image from Docker Hub:
 
-   ```bash
-   cd admin-dashboard
-   ```
+```bash
+docker pull patrickpisten231/my-admin-dashboard:latest
+```
 
-3. Install the required dependencies:
+Then, run the Docker container:
 
-   ```bash
-   npm install
-   ```
+```bash
+docker run -p 80:80 patrickpisten231/my-admin-dashboard:latest
+```
 
-4. Start the development server:
+The application should now be available at:
 
-   ```bash
-   npm run dev
-   ```
-
-5. Open your browser and go to http://localhost:5173 to view the application.
+`http://localhost`
 
 ## **Routes 🗺️**
 
 Once the application is running, you can navigate through the different pages using the sidebar. The main routes includes:
 
-- /Overview Page 🏠
-- /products - Products Page 📦
-- /users - Users Page 👥
-- /sales - Sales Page 💰
-- /orders - Orders Page 📋
-- /analytics - Analytics Page 📈
-- /settings - Settings Page ⚙️
+- `/Overview` - Overview Page 🏠
+- `/products` - Products Page 📦
+- `/users` - Users Page 👥
+- `/sales` - Sales Page 💰
+- `/orders` - Orders Page 📋
+- `/analytics` - Analytics Page 📈
+- `/settings` - Settings Page ⚙️
 
 ## **License** 📄
 
