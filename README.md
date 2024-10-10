@@ -45,7 +45,7 @@ docker run -p 80:80 patrickpisten231/my-admin-dashboard:latest
 
 The application should now be available at:
 
-`http://localhost`
+`http://localhost/80`
 
 ## **Routes 🗺️**
 
